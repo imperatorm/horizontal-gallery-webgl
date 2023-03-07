@@ -1,38 +1,38 @@
 export default [
   {
     title: "Liechtenstein Life",
-    image: "/assets/Liechtenstein Life - Ipad_XL.jpg"
+    image: "/images/Liechtenstein Life - Ipad_XL.webp"
   },
   {
     title: "Samperform",
-    image: "/assets/samperform.jpg"
+    image: "/images/samperform.webp"
   },
   {
     title: "Cosign",
-    image: "/assets/COSIGN.jpg"
+    image: "/images/COSIGN.webp"
   },
   {
     title: "Axians",
-    image: "/assets/Axians.jpg"
+    image: "/images/Axians.webp"
   },
   {
     title: "SubsTV",
-    image: "/assets/SubsTV.jpg"
+    image: "/images/SubsTV.webp"
   },
   {
     title: "Baloise",
-    image: "/assets/InvO.jpg  "
+    image: "/images/InvO.webp  "
   },
   {
     title: "Seedhodler",
-    image: "/assets/Seedhodler.jpg"
+    image: "/images/Seedhodler.webp"
   },
   {
     title: "Twimyo",
-    image: "/assets/twimyo.jpg"
+    image: "/images/twimyo.webp"
   },
   {
     title: "Definet",
-    image: "/assets/Definet.jpg"
+    image: "/images/Definet.webp"
   }
 ];
