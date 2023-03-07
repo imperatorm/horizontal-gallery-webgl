@@ -6,9 +6,10 @@
 
 html,
 body {
+  font-size: 2vw;
   overflow: hidden;
-  font-family: "Manrope";
-  background: #010019;
+  font-family: "Oswald";
+  background: #fce5d7;
 }
 
 canvas {
@@ -36,7 +37,7 @@ canvas {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: -80%;
   margin: auto;
   z-index: 2;
   height: fit-content;
@@ -48,9 +49,9 @@ canvas {
 
   &--text {
     color: white;
-    font-size: 64px;
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    letter-spacing: 5px;
+    font-size: 1em;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.096);
+    letter-spacing: 2px;
     transform: translateY(70px);
   }
 }
@@ -102,5 +103,5 @@ canvas {
   right: 0;
   height: 20vh;
   z-index: 3;
-  background: linear-gradient(0deg, #010019b9 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(0deg, #b19d91 0%, #fce5d700 100%);
 }

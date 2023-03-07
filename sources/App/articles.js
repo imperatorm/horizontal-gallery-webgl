@@ -1,38 +1,38 @@
 export default [
   {
-    title: "Article 0",
-    image: "/assets/example-0.webp"
+    title: "Liechtenstein Life",
+    image: "/assets/Liechtenstein Life - Ipad_XL.jpg"
   },
   {
-    title: "Article 1",
-    image: "/assets/example-1.webp"
+    title: "Samperform",
+    image: "/assets/samperform.jpg"
   },
   {
-    title: "Article 2",
-    image: "/assets/example-2.webp"
+    title: "Cosign",
+    image: "/assets/COSIGN.jpg"
   },
   {
-    title: "Article 3",
-    image: "/assets/example-3.webp"
+    title: "Axians",
+    image: "/assets/Axians.jpg"
   },
   {
-    title: "Article 4",
-    image: "/assets/example-4.webp"
+    title: "SubsTV",
+    image: "/assets/SubsTV.jpg"
   },
   {
-    title: "Article 5",
-    image: "/assets/example-5.webp"
+    title: "Baloise",
+    image: "/assets/InvO.jpg  "
   },
   {
-    title: "Article 6",
-    image: "/assets/example-6.webp"
+    title: "Seedhodler",
+    image: "/assets/Seedhodler.jpg"
   },
   {
-    title: "Article 7",
-    image: "/assets/example-7.webp"
+    title: "Twimyo",
+    image: "/assets/twimyo.jpg"
   },
   {
-    title: "Article 8",
-    image: "/assets/example-8.webp"
+    title: "Definet",
+    image: "/assets/Definet.jpg"
   }
 ];

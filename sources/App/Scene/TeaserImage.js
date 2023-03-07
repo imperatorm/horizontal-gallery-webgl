@@ -38,7 +38,8 @@ export default class TeaserImage {
         uPlaneSizes: { value: [0, 0] },
         uOffset: { value: 0 },
         uZoom: { value: 0.85 },
-        uVelocity: { value: 0 }
+        uVelocity: { value: 0 },
+        uEdgeWidth: { value: 0 }
       }
     });
 
