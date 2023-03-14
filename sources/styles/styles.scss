@@ -17,6 +17,10 @@ canvas {
   width: 100vw;
   min-height: 100%;
 }
+.page-wrapper
+{
+  opacity: 0;
+}
 
 .centerCircle {
   position: absolute;
@@ -30,6 +34,29 @@ canvas {
   border: 3px solid white;
   border-radius: 50%;
   z-index: 1;
+}
+.mainTitle {
+  position: absolute;
+  top: -80%;
+  left: 0;
+  right: 0;
+  bottom: 0%;
+  margin: auto;
+  z-index: 2;
+  height: fit-content;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+
+  &--text {
+    color: white;
+    font-size: 1.2em;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.096);
+    letter-spacing: 0px;
+    
+  }
 }
 
 .detailTitle {

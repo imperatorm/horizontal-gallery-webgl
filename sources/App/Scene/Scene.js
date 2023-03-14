@@ -21,8 +21,36 @@ export default class Scene {
 
       this.raycasting = new Raycasting();
 
+      this.pageloading()
       this.playOpening();
+      this.Logoloading();
+      
     });
+  }
+
+  pageloading()
+  {
+    gsap.to(
+      ".page-wrapper",
+      {opacity: 1,duration: 1.5,
+        ease: "power4.inOut",}
+    )
+  }
+
+  logoloading() {
+    gsap.fromTo(
+      ".mainTitle",
+        { y:-150, 
+          z: 0, 
+          opacity: 0,
+        },
+        {y:0, 
+          opacity: 1,
+          delay: 0.2,
+          z: 20,
+          duration: 1,
+          ease: "power4.inOut",}
+      );
   }
 
   playOpening() {
