@@ -9,7 +9,7 @@ body {
   font-size: 2vw;
   overflow: hidden;
   font-family: "Oswald";
-  background: #fce5d7;
+  background: #1c1c1e;
 }
 
 canvas {
@@ -130,5 +130,5 @@ canvas {
   right: 0;
   height: 20vh;
   z-index: 3;
-  background: linear-gradient(0deg, #b19d91 0%, #fce5d700 100%);
+  background: linear-gradient(0deg, #1c1c1e 0%, #fce5d700 100%);
 }
