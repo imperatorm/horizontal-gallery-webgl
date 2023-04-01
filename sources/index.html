@@ -10,7 +10,6 @@
 <body>
     <script type="module" src="./index.js"></script>
     <div class="page-wrapper" id="grain">
-        
         <div class="centerCircle"></div>
         <div class="detailTitle">
             <div class="detailTitle--text"></div>
@@ -20,6 +19,18 @@
         </div>
         <div class="bottomGradient"></div>
     </div> 
+    <script>
+        var options = {
+          "animate": true,
+          "patternWidth": 600,
+          "patternHeight": 600,
+          "grainOpacity": 0.15,
+          "grainDensity": 1,
+          "grainWidth": 0.7,
+          "grainHeight": 0.7,
+        }
+        grained("#grain", options);
+        </script>
 </body>
 
 </html>
